@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DeepEmotion_Exp</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="band_frag_text01">start</string>
+    <string name="band_frag_text02">stop</string>
+    <string name="band_frag_text03">Start Band connect first</string>
+
+    <string name="band_frag_text04">GSR : </string>
+    <string name="band_frag_text05">BPM : </string>
+    <string name="band_frag_text06">RRI : </string>
+    <string name="band_frag_text07">SKT : </string>
+
+    <string name="band_frag_text08">Make Excel</string>
+    <string name="band_frag_text09">Share Excel</string>
+    <string name="band_frag_text10">Sync Start</string>
+
+    <string name="graph_frag_text1">GSR</string>
+    <string name="graph_frag_text2">RRI</string>
+    <string name="graph_frag_text3">SKT</string>
+
+    <string name="unknown_device">Unknown</string>
+</resources>

@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Activity.Graph.GraphActivity"
+    tools:showIn="@layout/graph">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/graph_frag_text1"
+            android:layout_margin="10dp"
+            android:textSize="16sp"
+            />
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/graph_chart1"
+            android:layout_width="match_parent"
+            android:layout_height="350dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/graph_frag_text2"
+            android:layout_margin="10dp"
+            android:textSize="16sp"
+            />
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/graph_chart2"
+            android:layout_width="match_parent"
+            android:layout_height="350dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/graph_frag_text3"
+            android:layout_margin="10dp"
+            android:textSize="16sp"
+            />
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/graph_chart3"
+            android:layout_width="match_parent"
+            android:layout_height="350dp" />
+    </LinearLayout>
+</ScrollView>
+
